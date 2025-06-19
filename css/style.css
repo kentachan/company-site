@@ -1,3 +1,4 @@
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -11,32 +12,28 @@ body {
 }
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
   border-bottom: 2px solid #007acc;
 }
-header img {
-  height: 50px;
-}
-nav {
-  margin-left: auto;
+.logo-text {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #007acc;
 }
 nav a {
-  margin-left: 1.5em;
+  margin-left: 1.2em;
   text-decoration: none;
   color: #007acc;
   font-weight: bold;
 }
 .hero {
-  display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 main {
   padding: 2em;
-  box-sizing: border-box;
 }
 footer {
   background: #007acc;
@@ -47,23 +44,26 @@ footer {
 }
 
 .contact-form {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 .contact-form label {
-  margin: 1em 0 0.5em;
+  margin-top: 1em;
   font-weight: bold;
 }
 .contact-form input,
 .contact-form textarea {
-  padding: 0.7em;
+  padding: 0.6em;
+  margin-top: 0.3em;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1em;
 }
 .contact-form button {
   margin-top: 1.5em;
-  padding: 0.9em;
+  padding: 0.8em;
   background-color: #007acc;
   color: white;
   border: none;
