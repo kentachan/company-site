@@ -50,3 +50,9 @@ header .logo-text {
   font-weight: bold;
   color: #007acc;
 }
+
+header .logo-text {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #007acc;
+}
