@@ -17,7 +17,9 @@ nav a {
   color: #333;
 }
 .hero {
-  width: 100%;
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
   height: auto;
 }
 main {
